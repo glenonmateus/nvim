@@ -17,7 +17,6 @@ opt.wrap = false
 opt.ignorecase = true
 opt.smartcase = true
 
-
 -- cursor line
 opt.cursorline = true
 
@@ -37,3 +36,6 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.iskeyword:append("-")
+
+opt.showmode = false
+opt.title = true
