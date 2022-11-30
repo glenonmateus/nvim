@@ -25,12 +25,12 @@ keymap.set("n", "sm", ":MaximizerToggle<CR>") -- toggle split window maximizatio
 keymap.set("n", "ee", ":NvimTreeToggle<CR>") -- toggle file explorer
 
 -- telescope
-keymap.set("n", "ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
-keymap.set("n", "fs", "<cmd>Telescope live_grep<cr>") -- find string in current working directory as you type
-keymap.set("n", "fc", "<cmd>Telescope grep_string<cr>") -- find string under cursor in current working directory
-keymap.set("n", "fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
-keymap.set("n", "fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
-keymap.set("n", "fl", "<cmd>Telescope file_browser<cr>", { noremap = true }) -- list available help tags
+keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
+keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string in current working directory as you type
+keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find string under cursor in current working directory
+keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
+keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
+keymap.set("n", "<leader>fl", "<cmd>Telescope file_browser<cr>", { noremap = true }) -- list available help tags
 
 -- ansible
 keymap.set("n", "<leader>ea", ":autocmd BufRead,BufNewFile *.yaml,*.yml set filetype=yaml.ansible<CR>")

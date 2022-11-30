@@ -50,6 +50,7 @@ return packer.startup(function(use)
 
 	-- file explorer
 	use("nvim-tree/nvim-tree.lua")
+	use("nvim-telescope/telescope-file-browser.nvim")
 
 	-- icons
 	use("kyazdani42/nvim-web-devicons")
