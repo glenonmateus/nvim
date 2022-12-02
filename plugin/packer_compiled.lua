@@ -149,11 +149,6 @@ _G.packer_plugins = {
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["nightfox.nvim"] = {
-    loaded = true,
-    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
-    url = "https://github.com/EdenEast/nightfox.nvim"
-  },
   ["null-ls.nvim"] = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
@@ -218,6 +213,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tender.vim"] = {
+    loaded = true,
+    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/tender.vim",
+    url = "https://github.com/jacoborus/tender.vim"
   },
   ["typescript.nvim"] = {
     loaded = true,

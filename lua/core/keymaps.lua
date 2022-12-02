@@ -31,6 +31,3 @@ keymap.set("n", "<leader>fc", "<cmd>Telescope grep_string<cr>") -- find string u
 keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
 keymap.set("n", "<leader>fl", "<cmd>Telescope file_browser<cr>", { noremap = true }) -- list available help tags
-
--- ansible
-keymap.set("n", "<leader>ea", ":autocmd BufRead,BufNewFile *.yaml,*.yml set filetype=yaml.ansible<CR>")
