@@ -8,12 +8,6 @@ if not actions_setup then
 	return
 end
 
--- local telescope_file_browser_setup, telescope_file_browser_actions =
--- 	pcall(require, "telescope.extensions.file_browser.actions")
--- if not telescope_file_browser_setup then
--- 	return
--- end
-
 telescope.setup({
 	defaults = {
 		mappings = {
@@ -24,15 +18,6 @@ telescope.setup({
 			},
 		},
 	},
-	-- extensions = {
-	-- 	file_browser = {
-	-- 		mappings = {
-	-- 			i = {
-	-- 				["<C-c>"] = telescope_file_browser_actions.create,
-	-- 			},
-	-- 		},
-	-- 	},
-	-- },
 })
 
 telescope.load_extension("fzf")
