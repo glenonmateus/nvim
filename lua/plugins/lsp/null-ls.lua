@@ -22,6 +22,9 @@ null_ls.setup({
 		diagnostics.hadolint,
 		diagnostics.gitlint,
 		diagnostics.actionlint,
+		diagnostics.ansiblelint,
+		diagnostics.jsonlint,
+		diagnostics.php,
 	},
 	-- configure format on save
 	on_attach = function(current_client, bufnr)

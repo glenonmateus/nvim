@@ -219,6 +219,11 @@ _G.packer_plugins = {
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/tender.vim",
     url = "https://github.com/jacoborus/tender.vim"
   },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
+  },
   ["typescript.nvim"] = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/typescript.nvim",

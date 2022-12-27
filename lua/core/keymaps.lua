@@ -19,10 +19,10 @@ keymap.set("n", "tp", ":tabp<CR>") -- go to previous tab
 
 -- plugin keymaps
 -- vim-maximizer
-keymap.set("n", "sm", ":MaximizerToggle<CR>") -- toggle split window maximization
+keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
 -- nvim-tree
-keymap.set("n", "ee", ":NvimTreeToggle<CR>") -- toggle file explorer
+keymap.set("n", "<leader>ee", ":NvimTreeToggle<CR>") -- toggle file explorer
 
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
