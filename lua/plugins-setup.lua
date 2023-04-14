@@ -34,7 +34,9 @@ return packer.startup(function(use)
 	-- lua functions that many plugins use
 	use("nvim-lua/plenary.nvim")
 
-	use("jacoborus/tender.vim")
+	-- nvim theme
+	-- use("jacoborus/tender.vim")
+	use("catppuccin/nvim")
 
 	-- tmux and split window navigation
 	use("christoomey/vim-tmux-navigator")
@@ -79,16 +81,11 @@ return packer.startup(function(use)
 	-- configuring lsp servers
 	use("neovim/nvim-lspconfig")
 	use("hrsh7th/cmp-nvim-lsp")
-	use({ "glepnir/lspsaga.nvim", branch = "main" })
-	use("jose-elias-alvarez/typescript.nvim")
 	use("onsails/lspkind.nvim")
 
 	-- formatting and linting
 	use("jose-elias-alvarez/null-ls.nvim")
 	use("jayp0521/mason-null-ls.nvim")
-
-	-- terraform
-	use("hashivim/vim-terraform")
 
 	-- treesitter
 	use({
@@ -105,8 +102,14 @@ return packer.startup(function(use)
 	-- git signs plugin
 	use("lewis6991/gitsigns.nvim")
 
+<<<<<<< Updated upstream
 	-- terminal
 	use("akinsho/toggleterm.nvim")
+=======
+	-- which-key
+	use("folke/which-key.nvim")
+
+>>>>>>> Stashed changes
 	if packer_bootstrap then
 		require("packer").sync()
 	end

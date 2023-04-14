@@ -17,17 +17,10 @@ mason.setup()
 mason_lspconfig.setup({
 	ensure_installed = {
 		"ansiblels",
-		"dockerls",
-		"html",
-		"sumneko_lua",
-		"marksman",
-		"intelephense",
+		"lua_ls",
 		"terraformls",
-		"tflint",
-		"sqlls",
-		"jedi_language_server",
-		"pylsp",
 		"bashls",
+    "yamlls"
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed
@@ -37,15 +30,6 @@ mason_null_ls.setup({
 	ensure_installed = {
 		"prettier",
 		"stylua",
-		"hadolint",
-		"gitlint",
-		"phpcbf",
-		"autopep8",
-		"flake8",
-		"pylint",
-		"shellcheck",
-		"sqlfluff",
-		"actionlint",
 	},
 	-- auto-install configured formatters and linters (with null-ls)
 	automatic_installation = true,

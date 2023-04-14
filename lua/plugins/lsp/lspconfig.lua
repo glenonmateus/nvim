@@ -8,11 +8,6 @@ if not cmp_nvim_lsp_status then
 	return
 end
 
-local typescript_setup, typescript = pcall(require, "typescript")
-if not typescript_setup then
-	return
-end
-
 local keymap = vim.keymap
 
 -- enable keybinds for available lsp server
@@ -40,16 +35,10 @@ end
 local capabilities = cmp_nvim_lsp.default_capabilities()
 
 local servers = {
-	"marksman",
-	"html",
 	"ansiblels",
-	"dockerls",
-	"intelephense",
-	"tflint",
-	"terraformls",
+  "terraformls",
 	"bashls",
-	"sqlls",
-	"jedi_language_server",
+  "yamlls"
 }
 
 for _, lsp in ipairs(servers) do
@@ -60,7 +49,7 @@ for _, lsp in ipairs(servers) do
 end
 
 -- configure lua server (with special settings)
-lspconfig["sumneko_lua"].setup({
+lspconfig["lua_ls"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 	settings = { -- custom settings for lua

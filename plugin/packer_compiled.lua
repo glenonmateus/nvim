@@ -164,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-ide"] = {
+    loaded = true,
+    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/nvim-ide",
+    url = "https://github.com/ldelossa/nvim-ide"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",

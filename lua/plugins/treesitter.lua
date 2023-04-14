@@ -12,7 +12,6 @@ treesitter.setup({
 	ensure_installed = {
 		"json",
 		"yaml",
-		"html",
 		"markdown",
 		"bash",
 		"lua",
@@ -23,6 +22,7 @@ treesitter.setup({
 		"php",
 		"python",
 		"sql",
+		"terraform",
 	},
 	auto_install = true,
 })
