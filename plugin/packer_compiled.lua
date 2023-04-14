@@ -124,11 +124,6 @@ _G.packer_plugins = {
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
     url = "https://github.com/onsails/lspkind.nvim"
   },
-  ["lspsaga.nvim"] = {
-    loaded = true,
-    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
-    url = "https://github.com/glepnir/lspsaga.nvim"
-  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -154,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/null-ls.nvim",
     url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
   },
+  nvim = {
+    loaded = true,
+    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/nvim",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -163,11 +163,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
-  },
-  ["nvim-ide"] = {
-    loaded = true,
-    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/nvim-ide",
-    url = "https://github.com/ldelossa/nvim-ide"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -219,21 +214,6 @@ _G.packer_plugins = {
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["tender.vim"] = {
-    loaded = true,
-    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/tender.vim",
-    url = "https://github.com/jacoborus/tender.vim"
-  },
-  ["toggleterm.nvim"] = {
-    loaded = true,
-    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
-    url = "https://github.com/akinsho/toggleterm.nvim"
-  },
-  ["typescript.nvim"] = {
-    loaded = true,
-    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/typescript.nvim",
-    url = "https://github.com/jose-elias-alvarez/typescript.nvim"
-  },
   ["vim-maximizer"] = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/vim-maximizer",
@@ -244,15 +224,15 @@ _G.packer_plugins = {
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
-  ["vim-terraform"] = {
-    loaded = true,
-    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/vim-terraform",
-    url = "https://github.com/hashivim/vim-terraform"
-  },
   ["vim-tmux-navigator"] = {
     loaded = true,
     path = "/home/glenon/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
+  },
+  ["which-key.nvim"] = {
+    loaded = true,
+    path = "/home/glenon/.local/share/nvim/site/pack/packer/start/which-key.nvim",
+    url = "https://github.com/folke/which-key.nvim"
   }
 }
 

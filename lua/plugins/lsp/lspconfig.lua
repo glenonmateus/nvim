@@ -36,9 +36,9 @@ local capabilities = cmp_nvim_lsp.default_capabilities()
 
 local servers = {
 	"ansiblels",
-  "terraformls",
+	"terraformls",
 	"bashls",
-  "yamlls"
+	"yamlls",
 }
 
 for _, lsp in ipairs(servers) do

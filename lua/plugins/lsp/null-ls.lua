@@ -13,18 +13,8 @@ null_ls.setup({
 	sources = {
 		formatting.prettier,
 		formatting.stylua,
-		formatting.phpcbf,
-		formatting.autopep8,
-		formatting.sqlfluff,
-		diagnostics.shellcheck,
-		diagnostics.flake8,
-		diagnostics.pylint,
-		diagnostics.hadolint,
-		diagnostics.gitlint,
-		diagnostics.actionlint,
+		formatting.terraform_fmt,
 		diagnostics.ansiblelint,
-		diagnostics.jsonlint,
-		diagnostics.php,
 	},
 	-- configure format on save
 	on_attach = function(current_client, bufnr)
