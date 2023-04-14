@@ -102,14 +102,9 @@ return packer.startup(function(use)
 	-- git signs plugin
 	use("lewis6991/gitsigns.nvim")
 
-<<<<<<< Updated upstream
-	-- terminal
-	use("akinsho/toggleterm.nvim")
-=======
 	-- which-key
 	use("folke/which-key.nvim")
 
->>>>>>> Stashed changes
 	if packer_bootstrap then
 		require("packer").sync()
 	end
