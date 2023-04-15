@@ -115,6 +115,11 @@ return packer.startup(function(use)
 	-- which-key
 	use("folke/which-key.nvim")
 
+	-- show indentation guides
+	use({
+		"lukas-reineke/indent-blankline.nvim",
+	})
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
