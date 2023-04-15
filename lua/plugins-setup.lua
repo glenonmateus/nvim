@@ -82,6 +82,16 @@ return packer.startup(function(use)
 	use("neovim/nvim-lspconfig")
 	use("hrsh7th/cmp-nvim-lsp")
 	use("onsails/lspkind.nvim")
+	use({
+		"glepnir/lspsaga.nvim",
+		opt = true,
+		branch = "main",
+		event = "LspAttach",
+		requires = {
+			{ "nvim-treesitter/nvim-treesitter" },
+			{ "nvim-tree/nvim-web-devicons" },
+		},
+	})
 
 	-- formatting and linting
 	use("jose-elias-alvarez/null-ls.nvim")

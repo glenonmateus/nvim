@@ -11,10 +11,12 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 
 null_ls.setup({
 	sources = {
+		formatting.autopep8,
 		formatting.prettier,
 		formatting.stylua,
 		formatting.terraform_fmt,
 		diagnostics.ansiblelint,
+		diagnostics.flake8,
 	},
 	-- configure format on save
 	on_attach = function(current_client, bufnr)

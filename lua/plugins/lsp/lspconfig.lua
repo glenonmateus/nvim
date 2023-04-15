@@ -38,7 +38,8 @@ local servers = {
 	"ansiblels",
 	"terraformls",
 	"bashls",
-	"yamlls",
+	"pyright",
+	-- "yamlls",
 }
 
 for _, lsp in ipairs(servers) do
@@ -47,6 +48,19 @@ for _, lsp in ipairs(servers) do
 		on_attach = on_attach,
 	})
 end
+
+-- kubernetes yamlls
+lspconfig.yamlls.setup({
+	capabilities = capabilities,
+	on_attach = on_attach,
+	settings = {
+		yaml = {
+			schemas = {
+				kubernetes = "globPattern",
+			},
+		},
+	},
+})
 
 -- configure lua server (with special settings)
 lspconfig["lua_ls"].setup({

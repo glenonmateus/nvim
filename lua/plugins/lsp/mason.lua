@@ -16,11 +16,12 @@ end
 mason.setup()
 mason_lspconfig.setup({
 	ensure_installed = {
+		"pyright",
 		"ansiblels",
 		"lua_ls",
 		"terraformls",
 		"bashls",
-    "yamlls"
+		"yamlls",
 	},
 	-- auto-install configured servers (with lspconfig)
 	automatic_installation = true, -- not the same as ensure_installed
@@ -30,6 +31,8 @@ mason_null_ls.setup({
 	ensure_installed = {
 		"prettier",
 		"stylua",
+		"autopep8",
+		"flake8",
 	},
 	-- auto-install configured formatters and linters (with null-ls)
 	automatic_installation = true,
