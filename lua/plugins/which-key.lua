@@ -33,4 +33,8 @@ whichkey.register({
 		name = "LSP",
 		i = { "<cmd>LspInfo<CR>", "LSP Info" },
 	},
+	g = {
+		name = "LazyGit",
+		g = { "<cmd>LazyGit<CR> ", "LazyGit" },
+	},
 })
