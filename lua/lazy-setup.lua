@@ -56,13 +56,6 @@ require("lazy").setup({
 	-- formatting and linting
 	"jose-elias-alvarez/null-ls.nvim",
 	"jayp0521/mason-null-ls.nvim",
-	-- treesitter
-	{
-		"nvim-treesitter/nvim-treesitter",
-		run = function()
-			require("nvim-treesitter.install").update({ with_sync = true })
-		end,
-	},
 	-- auto closing
 	"windwp/nvim-autopairs",
 	-- use("windwp/nvim-ts-autotag")
