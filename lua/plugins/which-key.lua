@@ -14,7 +14,6 @@ whichkey.register({
 		c = { "<cmd>Telescope grep_string<cr>", "Find String Under Cursor" },
 		b = { "<cmd>Telescope buffers<cr>", "List Open Buffers" },
 		h = { "<cmd>Telescope help_tags<cr>", "List Available Help Tags" },
-		l = { "<cmd>Telescope file_browser<cr>", "File Browser" },
 	},
 	s = {
 		name = "Split",
