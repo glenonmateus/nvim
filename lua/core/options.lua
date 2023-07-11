@@ -39,8 +39,3 @@ opt.iskeyword:append("-")
 
 opt.showmode = false
 opt.title = true
-
--- indent blankline
-opt.list = true
-opt.listchars:append("space:⋅")
-opt.listchars:append("eol:↴")

@@ -58,15 +58,10 @@ require("lazy").setup({
 	"jayp0521/mason-null-ls.nvim",
 	-- auto closing
 	"windwp/nvim-autopairs",
-	-- use("windwp/nvim-ts-autotag")
 	-- git signs plugin
 	"lewis6991/gitsigns.nvim",
 	-- which-key
 	"folke/which-key.nvim",
-	-- show indentation guides
-	{
-		"lukas-reineke/indent-blankline.nvim",
-	},
 	{
 		"iamcco/markdown-preview.nvim",
 		run = function()
