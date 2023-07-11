@@ -18,6 +18,7 @@ treesitter.setup({
 		"vim",
 		"dockerfile",
 		"gitignore",
+		"gitcommit",
 		"hcl",
 		"php",
 		"python",

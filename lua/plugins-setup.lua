@@ -83,7 +83,7 @@ return packer.startup(function(use)
 	use("hrsh7th/cmp-nvim-lsp")
 	use("onsails/lspkind.nvim")
 	use({
-		"glepnir/lspsaga.nvim",
+		"nvimdev/lspsaga.nvim",
 		opt = true,
 		branch = "main",
 		event = "LspAttach",
@@ -107,7 +107,7 @@ return packer.startup(function(use)
 
 	-- auto closing
 	use("windwp/nvim-autopairs")
-	use("windwp/nvim-ts-autotag")
+	-- use("windwp/nvim-ts-autotag")
 
 	-- git signs plugin
 	use("lewis6991/gitsigns.nvim")
