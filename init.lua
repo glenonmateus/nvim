@@ -1,4 +1,3 @@
--- require("plugins-setup")
 require("lazy-setup")
 require("core.options")
 require("core.keymaps")
