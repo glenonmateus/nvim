@@ -37,4 +37,8 @@ whichkey.register({
 		name = "LazyGit",
 		g = { "<cmd>LazyGit<CR> ", "LazyGit" },
 	},
+	L = {
+		name = "LazyNvim",
+		l = { "<cmd>Lazy<CR> ", "LazyNvim" },
+	},
 })
